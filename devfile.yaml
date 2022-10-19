@@ -30,7 +30,7 @@ components:
       deployment/memoryRequest: 10Mi
       deployment/container-port: 8081
     kubernetes:
-      uri: outerloop-deploy.yaml
+      uri: https://raw.githubusercontent.com/jerolimov/devfile-sample-go-basic-remote-k8s-uri/main/outerloop-deploy.yaml
 commands:
   - id: build-image
     apply:
